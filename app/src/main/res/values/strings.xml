@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ForTheBetterMe</string>
+    <string name="Btn_Dan">Moj dan...</string>
+    <string name="ProstorZaCitat">Njegujte um uzvišenim mislima. Junake čini vjerovanje u junaštvo.</string>
+    <string name="Situacije">Kako se nositi s određenim situacijama?</string>
+    <string name="RazinaStresa">Razina stresa</string>
+
+    <!-- Za situacije_fragment-->
+    <string name="NaslovSituacije">Korisni savjeti za stresne i krizne \nsituacije</string>
+    <string name="NaslovPanike">Napadaj panike - kako se nositi s njima</string>
+    <string name="TekstZaNapadajPanike">Napad panike nastupa iznenada, a može trajati svega nekoliko sekundi ili, pak, više sati. Postupak koji pomaže kod velikog broja ljudi. Vježba koja pomaže kod velikog broja ljudi sastoji se od 7 koraka. 1.Korak Stavite ruku na nešto čvrsto. 2.Korak Nabrojite pet stvari koje vidite. 3.KorakNabrojite četiri stvari koje čujete.
+        4.KorakNabrojite tri stvari koje možete namirisati.
+        5.KorakNabrojite dvije stvari koje možete osjetiti dodirom.
+        6.KorakUsredotočite se na okus u ustima.
+        7.KorakPonovite iste korake u drugoj prostoriji.
+    </string>
+
+    <string name="podnaslovAnksioznosti">Kako smanjiti anksioznost?</string>
+    <string name="TekstZaAnksioznost">Klasične tehnike koje se mogu koristit za smanjenje anksioznosti. Duboko udahnite. Prihvatite da ste anksiozni te da je tjeskoba samo osjećaj, a ne i činjenica. Shvatite da se vaš um u iznimno stresnoj situaciji može poigravati s vama. Preispitujte vlastite ideje i strahove (anksioznost izaziva promjene spoznaje).
+        Zamislite se na nekom ljepšem mjestu (ovo ne funkcionira samo u filmovima.)
+        Postanite promatrač okoline koji suosjeća. Prestanite osuđivati sebe i druge.
+        Laskajte si i sami gradite svoje samopouzdanje.
+        Usredotočite se na sadašnji trenutak.
+        Zaposlite ruke bilo čime. Najgore što možete učiniti za sebe je besposleno zuriti u prazno.
+    </string>
+
+    <string name="podnaslovDepresija">Kako se rješiti depresije??</string>
+    <string name="TekstZaDepresiju">
+        Kako se možete lakše nositi s depresivnim raspoloženjem (ili depresijom)?
+        Ne postavljajte pred sebe zahtjevne zadatke, niti preuzimajte dodatne odgovornosti.
+
+        Veće zadatke podijelite na manje dijelove, odredite prioritete i činite ono što možete, kad možete.
+
+        Ne očekujte da ćete se brzo izvući iz ovog stanja. Tako možete izazvati osjećaj razočaranja ili ljutnje. Oporavak zahtjeva vrijeme.
+
+        Izoliranje i potiskivanje osjećaja samo će produbiti depresiju. Ne morate naširoko raspravljati o svom raspoloženju, ali možete kratko objasniti neke svoje postupke.
+
+        Bliskim članovima obitelji pokušajte objasniti da od njih ne očekujete rješenje vašeg problema. Međutim, podrška članova obitelji može znatno ubrzati oporavak.
+
+        Nastojte pojednostaviti život i usredotočiti se na ono što je uistinu važno. Ne morate biti savršeni.
+
+        Osvijestite da vi niste krivi što patite od depresije. Depresija je bolest baš kao svaka druga ( od kojih obolijevaju mnogi oko vas).
+
+        Odijelite sebe od bolesti!!! Ono što osjećate niste vi. To su simptomi.
+
+        Mudro je odgoditi velike odluke na neko vrijeme.
+
+        Ne očekujte da će ovakvo raspoloženje, posebno ako je riječ o „pravoj“ depresiji, proći samo od sebe. Potražite pomoć i pomozite si koliko god možete, ali ne prekoravajte se ako to nekad niste u stanju.
+
+    </string>
+
+    <!-- Za razina_stresa-->
+    <string name="mjerac">Izmjeri stres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

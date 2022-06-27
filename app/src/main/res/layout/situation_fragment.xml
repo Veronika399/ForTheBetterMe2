@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:background="@drawable/pozadina"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewSituacija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="181dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:text="@string/NaslovSituacije"
+            android:textAlignment="center"
+            android:textColor="@color/darkgreen"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonExitSavjeti" />
+
+        <TextView
+            android:id="@+id/podnaslovPanika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:text="@string/NaslovPanike"
+            android:textColor="@color/darkgreen"
+            android:textSize="17.5sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSituacija" />
+
+
+        <TextView
+            android:id="@+id/tekstPanika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:padding="4dp"
+            android:text="@string/TekstZaNapadajPanike"
+            android:textColor="@color/darkgreen"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/podnaslovPanika" />
+
+        <TextView
+            android:id="@+id/podnaslovAnksioznost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="44dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:text="@string/podnaslovAnksioznosti"
+            android:textColor="@color/darkgreen"
+            android:textSize="17.5sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tekstPanika" />
+
+        <TextView
+            android:id="@+id/TekstAnksioznost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:padding="4dp"
+            android:text="@string/TekstZaAnksioznost"
+            android:textColor="@color/darkgreen"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/podnaslovAnksioznost"
+            />
+
+
+        <TextView
+            android:id="@+id/podnaslovDepresija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="36dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:text="@string/podnaslovDepresija"
+            android:textColor="@color/darkgreen"
+            android:textSize="17.5sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TekstAnksioznost" />
+
+        <TextView
+            android:id="@+id/tekstDepresija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/green_with_opacity"
+            android:fontFamily="serif"
+            android:padding="4dp"
+            android:text="@string/TekstZaDepresiju"
+            android:textColor="@color/darkgreen"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/podnaslovDepresija" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/buttonExitSavjeti"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/green"
+            android:clickable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back"
+            app:tint="@color/white"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

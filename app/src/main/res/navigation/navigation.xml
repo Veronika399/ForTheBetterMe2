@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/initial">
+    <fragment
+        android:id="@+id/newNoteFragment4"
+        android:name="com.example.forthebetterme.ui.note_new.NewNoteFragment"
+        android:label="NewNoteFragment" >
+        <action
+            android:id="@+id/action_newNoteFragment4_to_noteListFragment3"
+            app:destination="@id/noteListFragment3" />
+        <action
+            android:id="@+id/action_newNoteFragment4_to_initial"
+            app:destination="@id/initial" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteListFragment3"
+        android:name="com.example.forthebetterme.ui.note_list.NoteListFragment"
+        android:label="NoteListFragment" >
+        <action
+            android:id="@+id/action_noteListFragment3_to_noteDetailsFragment3"
+            app:destination="@id/noteDetailsFragment3" />
+        <action
+            android:id="@+id/action_noteListFragment3_to_initial"
+            app:destination="@id/initial" />
+    </fragment>
+    <fragment
+        android:id="@+id/initial"
+        android:name="com.example.forthebetterme.ui.initial_fragment.Initial"
+        android:label="Initial" >
+        <action
+            android:id="@+id/action_initial_to_newNoteFragment4"
+            app:destination="@id/newNoteFragment4" />
+        <action
+            android:id="@+id/action_initial_to_situation"
+            app:destination="@id/situation" />
+        <action
+            android:id="@+id/action_initial_to_emotionMusic"
+            app:destination="@id/emotionMusic" />
+        <action
+            android:id="@+id/action_initial_to_noteListFragment3"
+            app:destination="@id/noteListFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteDetailsFragment3"
+        android:name="com.example.forthebetterme.ui.note_details.NoteDetailsFragment"
+        android:label="NoteDetailsFragment" >
+        <action
+            android:id="@+id/action_noteDetailsFragment3_to_noteListFragment3"
+            app:destination="@id/noteListFragment3" />
+        <argument
+            android:name="noteId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/situation"
+        android:name="com.example.forthebetterme.ui.situation.Situation"
+        android:label="Situation" >
+        <action
+            android:id="@+id/action_situation_to_initial"
+            app:destination="@id/initial" />
+    </fragment>
+    <fragment
+        android:id="@+id/emotionMusic"
+        android:name="com.example.forthebetterme.ui.emotionmusic.EmotionMusic"
+        android:label="EmotionMusic" >
+        <action
+            android:id="@+id/action_emotionMusic_to_initial"
+            app:destination="@id/initial" />
+    </fragment>
+</navigation>
